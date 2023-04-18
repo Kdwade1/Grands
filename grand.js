@@ -17,7 +17,7 @@
             hero.style.backgroundImage = 'url("' + bgImg[i + 1] + '")';
             thumbnail[i+1].classList.add("active")
             thumbnail[i].classList.remove("active")
-            i++
+            i++;
         }
     }
     prev.onclick = function () {
