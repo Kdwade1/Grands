@@ -1,5 +1,54 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     font-family: sans-serif;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/room1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.navbar{
+    width:90%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+.navbar .logo{
+    width:60px;
+    margin:30px 0 ;
+    cursor:pointer;
+
+}
+.person{
+    display: flex;
+    align-items: center;
+}
+.person img{
+    width:30px;
+    margin-left: 50px;
+    cursor:pointer;
+}
+button{
+    padding: 8px 25px;
+    background-color: transparent;
+    outline:none;
+    border:2px solid white;
+    border-radius: 20px;
+    color:#fff;
+    font-size:12px;
+    font-weight: bold;
+}
+.container{
+    width:50%;
+    height:100vh;
+
 }
